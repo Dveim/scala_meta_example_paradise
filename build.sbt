@@ -5,7 +5,7 @@ lazy val commonSettings = Seq(
   scalaVersion := "2.11.8",
   scalacOptions += "-Xplugin-require:macroparadise",
   resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots",
-  addCompilerPlugin("org.scalamacros" % "paradise" % "3.0.0-M5" cross CrossVersion.full)
+  addCompilerPlugin("org.scalameta" % "paradise" % "3.0.0-M5" cross CrossVersion.full)
 )
 
 lazy val root = (project in file("."))
@@ -17,3 +17,4 @@ lazy val macros = (project in file("macros"))
     .settings(
       libraryDependencies += "org.scalameta" %% "scalameta" % "1.1.0"
     )
+

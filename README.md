@@ -1,6 +1,4 @@
-Project to replicate example "Hello World" application from @xeno-by at Scala days" Berlin (https://youtu.be/IPnd_SZJ1nM?t=1219)
-
-This project specifically targets the new "inline" macros.
+For demo purposes, shows how to create "memoized" macro annotation with scalameta.
 
 **To Run**
 
